@@ -1,0 +1,53 @@
+.about{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+        
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+    background: #F9F8F8;
+    background-image: url("../../images/oranges.png");
+    background-repeat: no-repeat;
+    background-position: left center;
+}
+
+.about__container{
+    grid-column-start: 2;
+}
+.text{  
+    color: #525C60;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 165.4%;
+}
+.about .text{
+    width: 500px;
+}
+.about .subtitle{
+    
+}
+.about__info-wrapper{
+    display: grid;
+    grid-template-columns: 101px 1fr;
+    grid-template-rows: 101px 101px;
+
+    row-gap: 30px;
+    column-gap: 19px;
+
+    margin-top: 46px;
+}
+.about__icon{
+    padding: 23px 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 20px;
+    background: #FFF;
+}
+
+.btn.categories__btn.about__btn{
+    margin-top: 46px;
+}

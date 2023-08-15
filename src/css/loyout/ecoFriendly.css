@@ -1,0 +1,30 @@
+.ecoFriendly{
+    background-image: url(../../images/bg-ecoFriendly.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: contain;
+    padding: 100px 0;
+}
+.ecoFriendly__wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.ecoFriendly__content{
+    padding: 78px 89px;
+    border-radius: 50px;
+    background-color:  #FFF;
+    grid-column-start: 2;
+}
+.ecoFriendly__title{
+    width: 700px;
+    font-size: 50px;
+}
+
+.ecoFriendly__list{
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+}
+.ecoFriendly__item >*{
+    margin: 0;
+}

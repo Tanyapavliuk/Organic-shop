@@ -1,0 +1,16 @@
+.offerAll{
+    background-color: #274C5B;
+    padding: 100px 0;
+}
+.offerAll__wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+
+    margin-bottom: 50px;
+}
+.offerAll__title{
+    width: 580px;
+    font-size: 50px;
+    color: #FFFFFF;
+}
